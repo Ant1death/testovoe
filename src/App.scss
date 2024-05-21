@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  gap: 20px;
+}
+
+.company-section, .employee-section {
+  flex: 1;
+}
+
+.company-table, .employee-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f4f4f4;
+  }
+
+  tr.selected {
+    background-color: #cce5ff;
+  }
+
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+}
+
+.employee-table {
+  margin-top: 20px;
+}
