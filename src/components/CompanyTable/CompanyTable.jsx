@@ -33,7 +33,6 @@ const CompanyTable = () => {
   const handleDeleteSelectedRows = () => {
     dispatch(deleteSelectedCompanies(selectedCompanyIds));
   };
-
   return (
     <table className="company-table">
       <thead>
@@ -79,7 +78,7 @@ const CompanyTable = () => {
                 <span onClick={() => handleEdit(company.id, company.name, company.address)}>{company.name}</span>
               )}
             </td>
-            <td>{company.employees}</td>
+            <td>{company.staff.length}</td>
             <td>
               {editCompanyId === company.id ? (
                 <input

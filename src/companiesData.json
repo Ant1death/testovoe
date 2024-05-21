@@ -2,7 +2,6 @@
     {
       "id": 1,
       "name": "Компания 1",
-      "employees": 2,
       "address": "Адрес 1",
       "staff": [
         { "id": 1, "name": "Иванов Иван", "position": "Менеджер" },
@@ -12,7 +11,6 @@
     {
       "id": 2,
       "name": "Компания 2",
-      "employees": 2,
       "address": "Адрес 2",
       "staff": [
         { "id": 3, "name": "Сидоров Сидор", "position": "Аналитик" },
@@ -22,7 +20,6 @@
     {
       "id": 3,
       "name": "Компания 3",
-      "employees": 2,
       "address": "Адрес 3",
       "staff": [
         { "id": 5, "name": "Попов Павел", "position": "Дизайнер" },

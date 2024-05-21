@@ -43,7 +43,6 @@ const companiesSlice = createSlice({
       const newCompany = {
         id: state.companies.length + 1,
         name: action.payload.name || '',
-        employees: 0,
         address: action.payload.address || '',
         staff: [],
       };
